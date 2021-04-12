@@ -1,0 +1,14 @@
+apiVersion: resourcecontrollerv2.ibmcloud.crossplane.io/v1alpha1
+kind: ResourceInstance
+metadata:
+  name: myes2
+spec:
+  forProvider:
+    name: myes2
+    target: us-south
+    serviceName: messagehub
+    resourcePlanName: lite
+    tags:
+      - dev
+  providerConfigRef:
+    name: ibm-cloud

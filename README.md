@@ -1,2 +1,2 @@
 # crossplane-knative-examples
-Examples for using Crossplane with Knative
+Examples for using Crossplane with Knative.
