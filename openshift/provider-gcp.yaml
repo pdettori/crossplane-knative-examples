@@ -1,0 +1,9 @@
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-gcp
+  namespace: crossplane-system
+spec:
+  package: crossplane/provider-gcp:alpha
+  controllerConfigRef:
+    name: openshift-config

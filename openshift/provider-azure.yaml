@@ -1,0 +1,9 @@
+apiVersion: pkg.crossplane.io/v1
+kind: Provider
+metadata:
+  name: provider-azure
+  namespace: crossplane-system
+spec:
+  package: crossplane/provider-azure:alpha
+  controllerConfigRef:
+    name: openshift-config
